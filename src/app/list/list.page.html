@@ -10,14 +10,11 @@
 </ion-header>
 
 <ion-content>
+
   <ion-list>
-    <ion-item *ngFor="let item of items">
-      <ion-icon [name]="item.icon" slot="start"></ion-icon>
-      {{item.title}}
-      <div class="item-note" slot="end">
-        {{item.note}}
-      </div>
-    </ion-item>
+    <button ion-item *ngFor="let heroe of (heroes | async)?.results" (click)="openDetails(heroes)">
+      {{ heroe.name }}
+    </button>
   </ion-list>
   <!--
     <div *ngIf="selectedItem" padding>

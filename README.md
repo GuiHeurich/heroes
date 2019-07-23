@@ -21,7 +21,7 @@ A sign-in view. Needs username and password inputs as well as a sign-in button. 
 
 Make a side menu with some nav links. (Hint: ionic2 has a menu ui component you should probably use.) For the links, use the ones in the wireframe, or make up your own.
 
-:production:
+:check:
 
 3. Master List
 
