@@ -29,7 +29,7 @@ describe('SignInPage', () => {
   it('should have a username and password input fields', () => {
     signInPage = fixture.nativeElement;
     const items = signInPage.querySelectorAll('ion-input');
-    expect(items.length).toEqual(4);
+    expect(items.length).toEqual(2);
   });
 
   it('should have a sign in button', () => {
