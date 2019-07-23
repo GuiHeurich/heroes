@@ -31,4 +31,12 @@ describe('SignInPage', () => {
     const items = signInPage.querySelectorAll('ion-input');
     expect(items.length).toEqual(4);
   });
+
+  it('should have a sign in button', () => {
+    signInPage = fixture.nativeElement;
+    const button = signInPage.querySelectorAll('ion-button');
+    expect(button.length).toEqual(1);
+    expect(button[0].getAttribute('href')).toEqual('/list');
+  });
+
 });
