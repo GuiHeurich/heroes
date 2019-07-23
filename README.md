@@ -2,6 +2,13 @@
 
 This app shows your favourite Star Wars characters. You can click on them and see their details. You can use the menu to navigate between screens and heroes.
 
+## Instructions
+
+Make sure you have Ionic installed (you can run ```npm install -g ionic```).
+Clone the repo, run ```ionic serve``` and open your browser on ```localhost:81000```.
+
+To run tests, type ```npm test```.
+
 ## Features to implement
 
 1. Sign-in
